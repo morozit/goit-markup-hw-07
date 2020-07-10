@@ -1,0 +1,52 @@
+.social__container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.social__footercontainer {
+  margin-left: 69px;
+  margin-right: 94px;
+  padding-top: 12px;
+  text-transform: uppercase;
+}
+
+.social__lists {
+  display: flex;
+}
+.social__item:not(:last-child) {
+  margin-right: 10px;
+}
+// TODO: стилі для лого і переходи
+%social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+}
+.team__social--link {
+  @extend %social__link;
+  fill: $primary-icon-color;
+  transition: background-color $timing-animation, fill $timing-animation;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    fill: $secondary-icon-color;
+  }
+}
+.footer__social--link {
+  @extend %social__link;
+  fill: $footer-icon-color;
+  background-color: $footer-icon-bgcolor;
+  transition: background-color $timing-animation;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+.social__icon {
+  width: 20px;
+  height: 20px;
+}

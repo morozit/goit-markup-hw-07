@@ -333,24 +333,24 @@ p {
   width: 270px;
 } */
 
-.produce-list {
+/* .produce-list {
   display: flex;
-}
+} */
 
-.produce-list .item:not(:last-child) {
+/* .produce-list .item:not(:last-child) {
   margin-right: 30px;
   padding: 0;
-}
+} */
 
-.produce-position {
+/* .produce-position {
   position: relative;
-}
+} */
 
-.produce-position img {
+/* .produce-position img {
   display: block;
-}
+} */
 
-.produce-title {
+/* .produce-title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -368,31 +368,30 @@ p {
   left: 0;
   bottom: 0;
   margin: 0;
-}
+} */
 
 /* team */
-.background-team {
+/* .background-team {
   background-color: var(--secondary-grey-color);
-}
+} */
 
-.card {
+/* .card {
   padding-bottom: 24px;
   background-color: var(--primary-white-color);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
-}
+} */
 
-.team-list {
+/* .team-list {
   display: flex;
-  /* justify-content: space-between; */
-}
+} */
 
-.team-list .item:not(:last-child) {
+/* .team-list .item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
-.team-title {
+/* .team-title {
   color: var(--text-title-color);
   font-weight: 400;
   font-size: 16px;
@@ -400,7 +399,7 @@ p {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 10px;
-}
+} */
 
 .team-description {
   font-weight: 400;
@@ -632,22 +631,23 @@ footer b {
   text-decoration: none;
   transition: color var(--timing-animation);
 }
-.subscribe-social {
+
+/* .subscribe-social {
   margin-left: 69px;
   margin-right: 94px;
   padding-top: 12px;
   text-transform: uppercase;
-}
+} */
 
-.social-list {
+/* .social-list {
   display: flex;
-}
+} */
 
-.social-list .item:not(:last-child) {
+/* .social-list .item:not(:last-child) {
   margin-right: 10px;
-}
+} */
 
-.social-footer {
+/* .social-footer {
   background-color: rgba(255, 255, 255, 0.3);
   fill: var(--primary-white-color);
   display: flex;
@@ -659,16 +659,16 @@ footer b {
   border-radius: 50%;
 
   transition: background-color var(--timing-animation);
-}
+} */
 
-.social-footer:hover,
+/* .social-footer:hover,
 .social-footer:focus {
   background-color: var(--accent-color);
-}
+} */
 
-.subscribe {
+/* .subscribe {
   padding-top: 12px;
-}
+} */
 .email-forma {
   display: flex;
 }

@@ -1,0 +1,111 @@
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+footer b {
+  display: flex;
+  margin-bottom: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  /* outline: 2px solid tomato; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.block1 {
+  display: block;
+}
+
+.logo-footer {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  line-height: 1.18;
+  text-decoration: none;
+}
+
+.address-footer {
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.address-footer .item:not(:last-child) {
+  padding-bottom: 9px;
+}
+
+.address-description {
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 1.71;
+}
+
+.address-footer .link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  line-height: 1.71;
+  text-decoration: none;
+  transition: color var(--timing-animation);
+}
+
+.email-forma {
+  display: flex;
+}
+
+.subscribe-input {
+  margin-right: 12px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding-left: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
+}
+
+.subscribe-input:focus,
+.subscribe-input:not(:placeholder-shown) {
+  outline: transparent;
+  border: 1px solid var(--accent-color);
+}
+
+.subscribe-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 20px 30px 20px 30px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.subscribe-link .icon {
+  margin-left: 10px;
+}
