@@ -1,0 +1,130 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo */
+
+.logo {
+  color: var(--text-title-color);
+  font-family: "Raleway", sans-serif;
+
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo- .logo:focus {
+  color: var(--accent-color);
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 85px;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.address-nav {
+  display: flex;
+  margin-left: auto;
+  font-style: normal;
+}
+
+.address-nav .item:not(:last-child) {
+  margin-right: 31px;
+}
+
+.nav-link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-title-color);
+  text-decoration: none;
+}
+
+.address-nav .link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+
+  color: var(--primary-text-color);
+  fill: var(--primary-logo-color);
+  transition: color var(--timing-animation), fill var(--timing-animation);
+}
+
+.nav-link::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: block;
+  width: 100%;
+  height: 5px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+  color: var(--text-title-color);
+  transform: scaleX(0);
+  transition: transform var(--timing-animation), color var(--timing-animation);
+}
+
+.current::before {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: block;
+  width: 100%;
+  height: 5px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+  transform: scaleX(1);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:hover::after,
+.nav-link:focus::after,
+.address-nav .link:hover,
+.address-nav .link:focus,
+.address-footer .link:hover,
+.address-footer .link:focus {
+  color: rgba($color: #2196f3, $alpha: 0.8);
+  fill: rgba($color: #2196f3, $alpha: 0.8);
+  transform: scaleX(1);
+}
+
+.site-nav .nav-link.current {
+  color: var(--accent-color);
+}
+
+.address-nav .icon {
+  margin-right: 10px;
+}

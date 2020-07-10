@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студіа</title>
     <link rel="stylesheet" href="./css/normaliz.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@300;500;700;900&display=swap"
@@ -15,7 +15,7 @@
   <body>
     <!--шапка сайта-->
     <header class="page-header">
-      <nav class="container main-nav">
+      <nav class="header__container main-nav">
         <a href="./index.html" class="logo"
           ><span class="logo-web">Web</span> Studio</a
         >
@@ -52,63 +52,63 @@
     </header>
     <main>
       <!--hero-->
-      <section class="hero">
-        <div class="hero-container">
-          <h1 class="hero-title">
+      <section class="hero__container-slider">
+        <div class="hero__container">
+          <h1 class="hero__title">
             эффективные решения<br />
             для вашего бизнеса
           </h1>
-          <button class="button-hero" data-open-modal>Заказать услугу</button>
+          <button class="hero__button" data-open-modal>Заказать услугу</button>
         </div>
       </section>
       <!--блок особенности компании-->
-      <section class="container section">
-        <h2 class="section-title hidden">особенности компании</h2>
-        <ul class="feature-list list">
-          <li class="item">
-            <div class="feature-icon">
-              <svg class="icon-antenna">
+      <section class="feature__container">
+        <h2 class="hidden">особенности компании</h2>
+        <ul class="feature__list">
+          <li class="feature__item">
+            <div class="feature__icon">
+              <svg class="feature__icon--antenna">
                 <use href="./images/sprite.svg#antenna"></use>
               </svg>
             </div>
-            <h3 class="features-title">Внимание к деталям</h3>
-            <p class="features-description">
+            <h3 class="features__title">Внимание к деталям</h3>
+            <p class="features__description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li class="item">
-            <div class="feature-icon">
-              <svg class="icon-clock">
+          <li class="feature__item">
+            <div class="feature__icon">
+              <svg class="feature__icon--clock">
                 <use href="./images/sprite.svg#clock"></use>
               </svg>
             </div>
-            <h3 class="features-title">Пунктуальность</h3>
-            <p class="features-description">
+            <h3 class="features__title">Пунктуальность</h3>
+            <p class="features__description">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li class="item">
-            <div class="feature-icon">
-              <svg class="icon-diagram">
+          <li class="feature__item">
+            <div class="feature__icon">
+              <svg class="feature__icon--diagram">
                 <use href="./images/sprite.svg#diagram"></use>
               </svg>
             </div>
-            <h3 class="features-title">Планирование</h3>
-            <p class="features-description">
+            <h3 class="features__title">Планирование</h3>
+            <p class="features__description">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li class="item">
-            <div class="feature-icon">
-              <svg class="icon-astronaut">
+            <div class="feature__icon">
+              <svg class="feature__icon--astronaut">
                 <use href="./images/sprite.svg#astronaut"></use>
               </svg>
             </div>
-            <h3 class="features-title">Современные технологии</h3>
-            <p class="features-description">
+            <h3 class="features__title">Современные технологии</h3>
+            <p class="features__description">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -116,17 +116,18 @@
         </ul>
       </section>
       <!--блок чем занимаетса компания-->
-      <section class="container section">
-        <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="produce-list list">
-          <li class="item">
-            <div class="produce-position">
+      <section class="produce__container">
+        <h2 class="produce__title">Чем мы занимаемся</h2>
+        <ul class="produce__list">
+          <li class="produce__item">
+            <div class="produce__position">
               <img
+                class="produce-position--img"
                 src="./images/what-we-do/box1.jpg"
                 alt="Десктопные приложения"
                 width="370"
               />
-              <h3 class="produce-title">Десктопные приложения</h3>
+              <h3 class="produce__title--h3">Десктопные приложения</h3>
             </div>
           </li>
           <li class="item">
@@ -501,7 +502,7 @@
         </div>
         <!--  -->
         <!--  -->
-        <div class="subscribe-telegram">
+        <div class="subscribe">
           <b>Подпишитесь на рассылку</b>
           <div class="email-forma">
             <input
@@ -510,7 +511,7 @@
               name="mail"
               placeholder="E-mail"
             />
-            <button class="subscribe-link link">
+            <button class="subscribe__button link">
               Подписаться
               <svg class="icon" width="24" height="24">
                 <use href="./images/sprite.svg#icon-send"></use>
@@ -589,7 +590,7 @@
             >
           </label>
           <!--  -->
-          <button type="submit" class="popup-send">Отправить</button>
+          <button type="submit" class="button">Отправить</button>
         </form>
       </div>
     </div>
