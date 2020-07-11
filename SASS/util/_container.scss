@@ -36,7 +36,6 @@
 }
 .produce__container {
   @extend %container;
-
   padding-bottom: 94px;
 }
 .team__container {
@@ -44,7 +43,11 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+.client__container {
+  @extend %container;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .portfolio__container {
   @extend %container;
   padding-top: 93px;

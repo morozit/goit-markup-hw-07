@@ -1,0 +1,30 @@
+.client__title {
+  margin-bottom: 50px;
+}
+.client__list {
+  display: flex;
+}
+.client__item:not(:last-child) {
+  margin-right: 30px;
+}
+.client-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  fill: $primary-icon-color;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  width: 170px;
+  height: 90px;
+
+  transition: background-color $timing-animation, border $timing-animation,
+    fill $timing-animation;
+  &:hover,
+  &:focus {
+    background-color: rgba($color: #797979, $alpha: 0.2);
+    border: 1px solid $accent-color;
+    fill: $accent-color;
+  }
+}

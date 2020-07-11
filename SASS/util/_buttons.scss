@@ -27,6 +27,9 @@
 .hero__button {
   @extend %button;
 }
+.popup__button {
+  @extend %button;
+}
 // TODO: кнопка подписки на россылку
 .subscribe__button {
   display: flex;

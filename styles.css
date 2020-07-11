@@ -401,28 +401,28 @@ p {
   margin-bottom: 10px;
 } */
 
-.team-description {
+/* .team-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
   margin-bottom: 16px;
-}
+} */
 
-.container-sociallinks {
+/* .container-sociallinks {
   padding-left: 32px;
   padding-right: 32px;
-}
+} */
 
-.sociallinks {
+/* .sociallinks {
   display: flex;
-}
+} */
 
-.sociallinks .item:not(:last-child) {
+/* .sociallinks .item:not(:last-child) {
   margin-right: 10px;
-}
+} */
 
-.team-social {
+/* .team-social {
   fill: var(--primary-logo-color);
   display: flex;
   justify-content: center;
@@ -433,33 +433,33 @@ p {
   border-radius: 50%;
   transition: background-color var(--timing-animation),
     fill var(--timing-animation);
-}
+} */
 
-.team-social:hover,
+/* .team-social:hover,
 .team-social:focus {
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
-}
+} */
 
-.team-social .link {
+/* .team-social .link {
   padding: 12px;
-}
+} */
 
-.social-icon {
+/* .social-icon {
   width: 20px;
   height: 20px;
-}
+} */
 
 /* постоянные клиенты */
-.client-list {
+/* .client-list {
   display: flex;
-}
+} */
 
-.client-list .item:not(:last-child) {
+/* .client-list .item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
-.client-logo {
+/* .client-logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -473,23 +473,23 @@ p {
 
   transition: background-color var(--timing-animation),
     border var(--timing-animation), fill var(--timing-animation);
-}
+} */
 
-.client-logo:hover,
+/* .client-logo:hover,
 .client-logo:focus {
   background-color: var(--secondary-grey-color);
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
-}
+} */
 
 /* Button */
 
-button {
+/* button {
   font-family: inherit;
   cursor: pointer;
-}
+} */
 
-.button {
+/* .button {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
 
@@ -497,9 +497,9 @@ button {
   font-size: 15px;
   line-height: 1.2;
   text-decoration: none;
-}
+} */
 
-.button.primary {
+/* .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   border-radius: 4px;
@@ -509,18 +509,18 @@ button {
   padding-bottom: 6px;
   border: none;
   outline: none;
-}
+} */
 
-.button.secondary {
+/* .button.secondary {
   color: var(--accent-color);
   background-color: var(--primary-white-color);
   padding-top: 6px;
   padding-bottom: 6px;
   border: none;
   outline: none;
-}
+} */
 
-.button.portfolio-filter {
+/* .button.portfolio-filter {
   color: var(--text-title-color);
   background-color: var(--secondary-grey-color);
   border-radius: 4px;
@@ -533,17 +533,17 @@ button {
 
   transition: color var(--timing-animation),
     background-color var(--timing-animation), box-shadow var(--timing-animation);
-}
+} */
 
-.button.portfolio-filter:hover,
+/* .button.portfolio-filter:hover,
 .button.portfolio-filter:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
-}
+} */
 
-.button-hero {
+/* .button-hero {
   min-width: 200px;
   height: 50px;
   line-height: var(--h);
@@ -560,7 +560,7 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   text-decoration: none;
-}
+} */
 
 /* footer */
 
@@ -669,11 +669,11 @@ footer b {
 /* .subscribe {
   padding-top: 12px;
 } */
-.email-forma {
+/* .email-forma {
   display: flex;
-}
+} */
 
-.subscribe-input {
+/* .subscribe-input {
   margin-right: 12px;
   width: 358px;
   height: 50px;
@@ -683,15 +683,15 @@ footer b {
   padding-left: 12px;
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
-}
+} */
 
-.subscribe-input:focus,
+/* .subscribe-input:focus,
 .subscribe-input:not(:placeholder-shown) {
   outline: transparent;
   border: 1px solid var(--accent-color);
-}
+} */
 
-.subscribe-link {
+/* .subscribe-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -707,11 +707,11 @@ footer b {
   border: none;
   outline: none;
   text-decoration: none;
-}
+} */
 
-.subscribe-link .icon {
+/* .subscribe-link .icon {
   margin-left: 10px;
-}
+} */
 
 /* .copy-rite {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
