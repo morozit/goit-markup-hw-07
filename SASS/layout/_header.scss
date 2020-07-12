@@ -6,7 +6,7 @@
 /* Logo */
 
 .logo {
-  color: var(--text-title-color);
+  color: $text-title-color;
   font-family: "Raleway", sans-serif;
 
   font-size: 26px;
@@ -19,7 +19,7 @@
 }
 
 .logo- .logo:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav {
@@ -52,7 +52,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--text-title-color);
+  color: $text-title-color;
   text-decoration: none;
 }
 
@@ -71,9 +71,9 @@
 
   text-decoration: none;
 
-  color: var(--primary-text-color);
-  fill: var(--primary-logo-color);
-  transition: color var(--timing-animation), fill var(--timing-animation);
+  color: $primary-text-color;
+  fill: $primary-text-color;
+  transition: color $timing-animation, fill $timing-animation;
 }
 
 .nav-link::after {
@@ -87,10 +87,10 @@
   width: 100%;
   height: 5px;
   border-radius: 2px;
-  background-color: var(--accent-color);
-  color: var(--text-title-color);
+  background-color: $accent-color;
+  color: $primary-text-color;
   transform: scaleX(0);
-  transition: transform var(--timing-animation), color var(--timing-animation);
+  transition: transform $timing-animation, color $timing-animation;
 }
 
 .current::before {
@@ -104,7 +104,7 @@
   width: 100%;
   height: 5px;
   border-radius: 2px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   transform: scaleX(1);
 }
 
@@ -122,7 +122,7 @@
 }
 
 .site-nav .nav-link.current {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .address-nav .icon {

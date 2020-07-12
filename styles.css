@@ -59,7 +59,7 @@ body {
 
 } */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -69,19 +69,12 @@ h6 {
   font-weight: 700;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-p {
+} */
+/* p {
   font-weight: 400;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-
-.hidden {
-  /* margin: 0px;
-  height: 0px;
-  color: transparent; */
-  display: none;
-}
+} */
 
 /* Page header */
 
@@ -91,52 +84,52 @@ p {
 
 /* Main nav */
 
-.main-nav {
+/* .main-nav {
   display: flex;
   align-items: center;
-}
+} */
 
 /* Logo */
 
-.logo {
+/* .logo {
   color: var(--text-title-color);
   font-family: "Raleway", sans-serif;
 
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-}
+} */
 
-.logo-web {
+/* .logo-web {
   color: #2196f3;
-}
+} */
 
-.logo- .logo:focus {
+/* .logo- .logo:focus {
   color: var(--accent-color);
-}
+} */
 
 /*шапка сайта*/
 
-.site-nav {
+/* .site-nav {
   display: flex;
   margin-left: 85px;
-}
+} */
 
-.site-nav .item:not(:last-child) {
+/* .site-nav .item:not(:last-child) {
   margin-right: 40px;
-}
+} */
 
-.address-nav {
+/* .address-nav {
   display: flex;
   margin-left: auto;
   font-style: normal;
-}
+} */
 
-.address-nav .item:not(:last-child) {
+/* .address-nav .item:not(:last-child) {
   margin-right: 31px;
-}
+} */
 
-.nav-link {
+/* .nav-link {
   position: relative;
   display: flex;
   justify-content: center;
@@ -149,9 +142,9 @@ p {
   letter-spacing: 0.02em;
   color: var(--text-title-color);
   text-decoration: none;
-}
+} */
 
-.address-nav .link {
+/* .address-nav .link {
   position: relative;
   display: flex;
   justify-content: center;
@@ -169,9 +162,9 @@ p {
   color: var(--primary-text-color);
   fill: var(--primary-logo-color);
   transition: color var(--timing-animation), fill var(--timing-animation);
-}
+} */
 
-.nav-link::after {
+/* .nav-link::after {
   content: "";
 
   position: absolute;
@@ -186,9 +179,9 @@ p {
   color: var(--text-title-color);
   transform: scaleX(0);
   transition: transform var(--timing-animation), color var(--timing-animation);
-}
+} */
 
-.current::before {
+/* .current::before {
   content: "";
 
   position: absolute;
@@ -201,9 +194,9 @@ p {
   border-radius: 2px;
   background-color: var(--accent-color);
   transform: scaleX(1);
-}
+} */
 
-.nav-link:hover,
+/* .nav-link:hover,
 .nav-link:focus,
 .nav-link:hover::after,
 .nav-link:focus::after,
@@ -214,15 +207,15 @@ p {
   color: var(--accent-color);
   fill: var(--accent-color);
   transform: scaleX(1);
-}
+} */
 
-.site-nav .nav-link.current {
+/* .site-nav .nav-link.current {
   color: var(--accent-color);
-}
+} */
 
-.address-nav .icon {
+/* .address-nav .icon {
   margin-right: 10px;
-}
+} */
 
 /* hero */
 
@@ -256,7 +249,7 @@ p {
   text-align: center;
 } */
 
-.hero-title {
+/* .hero-title {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -266,7 +259,7 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding-bottom: 30px;
-}
+} */
 
 /* Section */
 
@@ -275,12 +268,11 @@ p {
   padding-bottom: 94px;
 } */
 
-.section.no-padding {
+/* .section.no-padding {
   padding-top: 0;
   padding-bottom: 0;
-  /* margin-top: 94px; */
   margin-bottom: 94px;
-}
+} */
 /* 
 .section-title {
   color: var(--text-title-color);
@@ -564,14 +556,14 @@ p {
 
 /* footer */
 
-.footer {
+/* .footer {
   background-color: #2f303a;
   color: #ffffff;
   font-size: 14px;
   line-height: 1.14;
-}
+} */
 
-footer b {
+/* footer b {
   display: flex;
   margin-bottom: 20px;
 
@@ -584,53 +576,52 @@ footer b {
   text-transform: uppercase;
 
   color: #ffffff;
-}
+} */
 
-.footer-container {
+/* .footer-container {
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
   padding-top: 60px;
   padding-bottom: 20px;
-  /* outline: 2px solid tomato; */
   display: flex;
   justify-content: space-between;
-}
+} */
 
-.block1 {
+/* .block1 {
   display: block;
-}
+} */
 
-.logo-footer {
+/* .logo-footer {
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
   line-height: 1.18;
   text-decoration: none;
-}
+} */
 
-.address-footer {
+/* .address-footer {
   font-style: normal;
   margin-top: 20px;
-}
+} */
 
-.address-footer .item:not(:last-child) {
+/* .address-footer .item:not(:last-child) {
   padding-bottom: 9px;
-}
+} */
 
-.address-description {
+/* .address-description {
   color: #ffffff;
   font-weight: 300;
   line-height: 1.71;
-}
+} */
 
-.address-footer .link {
+/* .address-footer .link {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   line-height: 1.71;
   text-decoration: none;
   transition: color var(--timing-animation);
-}
+} */
 
 /* .subscribe-social {
   margin-left: 69px;
