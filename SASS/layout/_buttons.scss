@@ -7,8 +7,8 @@
   border: none;
   outline: none;
   cursor: pointer;
-  color: $text-button-color;
-  background-color: $background-button;
+  color: $primary-white;
+  background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 900;
@@ -35,26 +35,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
-  width: 200px;
-  background-color: $background-button;
-  color: $text-button-color;
-
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  padding: 20px 30px 20px 30px;
-  border: none;
-  text-decoration: none;
-  outline: none;
-  transform: scale(1);
-  transition: transform $timing-animation;
-
+  @extend %button;
+  padding: 10px 29px;
   & .icon {
     margin-left: 10px;
-  }
-  &:hover {
-    transform: scale(1.1);
   }
 }
 

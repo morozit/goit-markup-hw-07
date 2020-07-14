@@ -8,9 +8,9 @@ html {
 }
 body {
   margin: 0;
-  background: $primary-background;
-  color: $primary-text-color;
-  font-family: "Roboto", "Raleway", "Lato", "Open Sans", sans-serif;
+  background: $primary-white;
+  color: $text-color;
+  font-family: $font-family;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.03em;
@@ -29,14 +29,14 @@ ul {
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.03em;
-  color: $text-title-color;
+  color: $title-color;
 }
 h1 {
   @extend %h;
   font-size: 44px;
   letter-spacing: 0.06em;
   text-align: center;
-  color: $secondary-text-color;
+  color: $primary-white;
 }
 h2 {
   @extend %h;

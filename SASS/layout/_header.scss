@@ -3,25 +3,6 @@
   align-items: center;
 }
 
-/* Logo */
-
-.logo {
-  color: $text-title-color;
-  font-family: "Raleway", sans-serif;
-
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-}
-
-.logo-web {
-  color: #2196f3;
-}
-
-.logo- .logo:focus {
-  color: $accent-color;
-}
-
 .site-nav {
   display: flex;
   margin-left: 85px;

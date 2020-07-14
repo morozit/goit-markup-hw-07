@@ -4,6 +4,13 @@
 .feature__item:not(:last-child) {
   margin-right: 30px;
 }
+// !
+// .feature__item {
+//   display: block;
+//   width: calc((100% - 90px) / 4);
+//   margin-top: 30px;
+// }
+// !
 .feature__icon {
   display: flex;
   justify-content: center;
