@@ -22,11 +22,11 @@
 
     transition: background-color $timing-animation, border $timing-animation,
       fill $timing-animation;
-  }
-  &_logo:hover,
-  &_logo:focus {
-    background-color: #797979;
-    border: 1px solid $accent-color;
-    fill: $accent-color;
+    &:hover,
+    &:focus {
+      background-color: #aaaaaa;
+      border: 1px solid $accent-color;
+      fill: $accent-color;
+    }
   }
 }

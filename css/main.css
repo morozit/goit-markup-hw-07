@@ -431,7 +431,7 @@ p {
   margin-left: 10px;
 }
 
-.button__portfolio-filter {
+.button__portfolio--filter {
   color: #212121;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -449,7 +449,7 @@ p {
   transition: color 600ms cubic-bezier(0.4, 0, 0.2, 1), background-color 600ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 600ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button__portfolio-filter:hover, .button__portfolio-filter:focus {
+.button__portfolio--filter:hover, .button__portfolio--filter:focus {
   color: #ffffff;
   background-color: #2196f3;
   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
@@ -483,6 +483,12 @@ p {
   margin-right: 30px;
 }
 
+.feature__item {
+  display: block;
+  width: calc((100% - 90px) / 4);
+  margin-top: 30px;
+}
+
 .feature__icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -505,13 +511,13 @@ p {
   height: 70px;
 }
 
-.features__title {
+.feature__title {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.features__description {
+.feature__description {
   font-weight: 400;
   width: 270px;
 }
@@ -589,6 +595,12 @@ p {
   margin-right: 30px;
 }
 
+.team__item {
+  display: block;
+  width: calc((100% - 90px) / 4);
+  margin-top: 30px;
+}
+
 .team__title--h3 {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -620,7 +632,7 @@ p {
   margin-right: 30px;
 }
 
-.client-logo {
+.client__logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -639,8 +651,8 @@ p {
   transition: background-color 600ms cubic-bezier(0.4, 0, 0.2, 1), border 600ms cubic-bezier(0.4, 0, 0.2, 1), fill 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-logo:hover, .client-logo:focus {
-  background-color: rgba(121, 121, 121, 0.2);
+.client__logo:hover, .client__logo:focus {
+  background-color: #aaaaaa;
   border: 1px solid #2196f3;
   fill: #2196f3;
 }
@@ -697,7 +709,7 @@ p {
 
 .footer__social--link {
   fill: #ffffff;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
   -webkit-transition: background-color 600ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -982,26 +994,6 @@ p {
   color: #2196f3;
 }
 
-.filter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.filter .item:not(:last-child) {
-  margin-right: 8px;
-}
-
-.container-portfolio .filter {
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 0;
-  margin-bottom: 50px;
-}
-
 .project {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1105,5 +1097,18 @@ p {
 .project .item:focus {
   -webkit-box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
           box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filter__item:not(:last-child) {
+  margin-right: 8px;
 }
 /*# sourceMappingURL=main.css.map */
