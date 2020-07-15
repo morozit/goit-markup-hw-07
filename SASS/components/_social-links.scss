@@ -28,19 +28,19 @@
 }
 .team__social--link {
   @extend %social__link;
-  fill: $primary-icon-color;
+  fill: #afb1b8;
   transition: background-color $timing-animation, fill $timing-animation;
   &:hover,
   &:focus {
     background-color: $accent-color;
-    fill: $secondary-icon-color;
+    fill: $primary-white;
     outline: transparent;
   }
 }
 .footer__social--link {
   @extend %social__link;
-  fill: $footer-icon-color;
-  background-color: $footer-icon-bgcolor;
+  fill: $primary-white;
+  background-color: rgba(255, 255, 255, 0.1);
   transition: background-color $timing-animation;
   &:hover,
   &:focus {

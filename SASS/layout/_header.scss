@@ -36,7 +36,7 @@
     height: 5px;
     border-radius: 2px;
     background-color: $accent-color;
-    color: $primary-text-color;
+    color: $text-color;
     transform: scaleX(0);
     transition: transform $timing-animation, color $timing-animation;
   }

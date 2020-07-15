@@ -1,28 +1,30 @@
-.client__title {
-  margin-bottom: 50px;
-}
-.client__list {
-  display: flex;
-}
-.client__item:not(:last-child) {
-  margin-right: 30px;
-}
-.client__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.client {
+  &__title {
+    margin-bottom: 50px;
+  }
+  &__list {
+    display: flex;
+  }
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  fill: #afb1b8;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
+    fill: #afb1b8;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
 
-  width: 170px;
-  height: 90px;
+    width: 170px;
+    height: 90px;
 
-  transition: background-color $timing-animation, border $timing-animation,
-    fill $timing-animation;
-  &:hover,
-  &:focus {
+    transition: background-color $timing-animation, border $timing-animation,
+      fill $timing-animation;
+  }
+  &_logo:hover,
+  &_logo:focus {
     background-color: #797979;
     border: 1px solid $accent-color;
     fill: $accent-color;
