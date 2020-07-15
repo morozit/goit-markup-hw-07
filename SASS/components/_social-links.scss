@@ -1,8 +1,8 @@
-.social__container {
+.social-team__container {
   padding-left: 32px;
   padding-right: 32px;
 }
-.social__footercontainer {
+.social-footer__container {
   margin-left: 69px;
   margin-right: 94px;
   padding-top: 12px;
@@ -34,6 +34,7 @@
   &:focus {
     background-color: $accent-color;
     fill: $secondary-icon-color;
+    outline: transparent;
   }
 }
 .footer__social--link {
@@ -44,6 +45,7 @@
   &:hover,
   &:focus {
     background-color: $accent-color;
+    outline: transparent;
   }
 }
 .social__icon {

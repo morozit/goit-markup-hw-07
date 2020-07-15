@@ -13,33 +13,37 @@
   </head>
   <body>
     <!--шапка сайта-->
-    <header class="page-header">
-      <nav class="header__container main-nav">
+    <header class="header__container">
+      <nav class="header__main-nav">
         <a href="./index.html" class="logo"
-          ><span class="logo-web">Web</span> Studio</a
+          >Web <span class="logo__studio-black">Studio</span></a
         >
-        <ul class="site-nav list">
-          <li class="item"><a href="./" class="nav-link">Студиа</a></li>
-          <li class="item">
-            <a href="" class="nav-link current">Портфолио</a>
+        <!-- TODO: nav site -->
+        <ul class="header__site-nav">
+          <li class="header__site-item">
+            <a href="./" class="header__site-link current">Студиа</a>
           </li>
-          <li class="item">
-            <a href="/header-fixed.html" class="nav-link">Контакты</a>
+          <li class="header__site-item">
+            <a href="./portfolio.html" class="header__site-link">Портфолио</a>
+          </li>
+          <li class="header__site-item">
+            <a href="/header-fixed.html" class="header__site-link">Контакты</a>
           </li>
         </ul>
-        <address class="address-nav">
-          <ul class="address-nav list">
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="link">
-                <svg class="icon" width="16" height="11.2">
+        <!-- TODO: nav address -->
+        <address class="header__address">
+          <ul class="header__address-nav">
+            <li class="header__address-item">
+              <a href="mailto:info@devstudio.com" class="header__address-link">
+                <svg class="header__icon" width="16" height="11.2">
                   <use href="./images/sprite.svg#mail"></use>
                 </svg>
                 info@devstudio.com
               </a>
             </li>
-            <li class="item">
-              <a href="tel:+380961111111" class="link">
-                <svg class="icon" width="10" height="14.94">
+            <li class="header__address-item">
+              <a href="tel:+380961111111" class="header__address-link">
+                <svg class="header__icon" width="10" height="14.94">
                   <use href="./images/sprite.svg#tel"></use>
                 </svg>
                 +38 096 111 11 11

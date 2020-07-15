@@ -10,21 +10,6 @@
   @extend %container;
 }
 .hero__container {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)
-    ),
-    url("../images/hero/hero.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.hero__container--title {
   @extend %container;
   display: block;
   padding: 200px 15px;
@@ -48,6 +33,13 @@
   @extend %container;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.footer__container {
+  @extend %container;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .portfolio__container {
   @extend %container;
