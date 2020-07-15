@@ -48,7 +48,7 @@
   text-decoration: none;
 
   padding-bottom: 20px;
-  background-color: $primary-background;
+  background-color: $primary-white;
 }
 
 .card-behind {
@@ -70,7 +70,7 @@
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: $primary-white;
   margin: 0px;
   padding: 63px 24px;
 
@@ -84,7 +84,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: $title-color;
   padding-top: 24px;
   padding-bottom: 4px;
   padding-left: 24px;
@@ -99,7 +99,7 @@
   letter-spacing: 0.03em;
   padding-left: 24px;
   padding-right: 20px;
-  color: #757575;
+  color: $text-color;
 }
 
 // TODO: hover & focus to project card
